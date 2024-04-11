@@ -1,0 +1,9 @@
+First and foremost, a big thank you goes to my amazing and faithful supporters: Marshal Nash, my father, and my sons,
+who have stuck with me in all of my projects, no matter how random or involved they may be.
+
+Additionally, I'd like to express gratitude to theillusivec4, the author of the Curios mod - not just because he made the mod,
+but also he's been incredibly helpful any time I've had a question for him about his API while working on my mods. It means a lot
+to me that I don't walk away feeling stupid for asking a question, even if my question was a result of misunderstanding something.
+And yeah, his collection of mods are well made.
+
+Thank you so much to all of you!

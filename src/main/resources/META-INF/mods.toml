@@ -1,0 +1,56 @@
+modLoader = "javafml"
+loaderVersion = "[43,)"
+license = "GNU_GPL.3"
+issueTrackerURL="https://discord.gg/gB8PjQgZ4Q"
+
+[[mods]]
+modId = "elytracompat"
+version = "${file.jarVersion}"
+displayName = "Elytra Compat Mod"
+## updateJSONURL = "TBA"
+## displayURL = "TBA"
+logoFile = "logo.png"
+credits = "A big thank you to my supporters: Marshal Nash, my father, and my sons, who have stuck with me in all of my projects.\nAdditional thanks to theillusivec4 in helping me figure some things out."
+authors = "WarrenTode (ToadieOdie)"
+description='''
+A compat mod created to add an a custom curios slot specifically for the elytra without interferring with backpacks.
+'''
+
+[modproperties.elytracompat]
+catalogueItemIcon = "minecraft:elytra" #Support for Catalogue mod
+configuredBackground = "minecraft:textures/block/calcite.png" #Support for Configured mod
+
+[[dependencies.elytracompat]]
+modId = "forge"
+mandatory=true
+versionRange = "[43,)"
+ordering = "NONE"
+side = "BOTH"
+
+[[dependencies.elytracompat]]
+modId = "minecraft"
+mandatory=true
+versionRange = "${minecraft_version_range}"
+ordering = "NONE"
+side = "BOTH"
+
+[[dependencies.elytracompat]]
+modId = "curios"
+mandatory=true
+versionRange = "1.19.2-5.1.6.1"
+ordering = "NONE"
+side = "BOTH"
+
+[[dependencies.elytracompat]]
+modId = "elytraslot"
+mandatory=true
+versionRange = "6.1.1+1.19.2"
+ordering = "NONE"
+side = "BOTH"
+
+[[dependencies.elytracompat]]
+modId = "caelus"
+mandatory=true
+versionRange = "${caelus_version}"
+ordering = "NONE"
+side = "BOTH"
