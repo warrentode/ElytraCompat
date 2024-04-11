@@ -6,7 +6,7 @@ import net.minecraftforge.data.event.GatherDataEvent;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
 import net.minecraftforge.fml.common.Mod;
 import org.jetbrains.annotations.NotNull;
-import warrentode.elytracompat.datagen.lang.CuriosTranslationsGen;
+import warrentode.elytracompat.datagen.lang.ElytraCompatLangGen;
 import warrentode.elytracompat.datagen.tags.BlockTagsGen;
 import warrentode.elytracompat.datagen.tags.ItemTagsGen;
 
@@ -25,6 +25,6 @@ public class DataGenerators {
         ItemTagsGen itemTagsGen = new ItemTagsGen(generator, blockTagsGen, MODID, helper);
         generator.addProvider(event.includeServer(), itemTagsGen);
 
-        generator.addProvider(event.includeClient(), new CuriosTranslationsGen(generator, "curios", "en_us"));
+        generator.addProvider(event.includeClient(), new ElytraCompatLangGen(generator, MODID, "en_us"));
     }
 }
