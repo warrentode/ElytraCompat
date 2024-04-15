@@ -1,14 +1,14 @@
 modLoader = "javafml"
 loaderVersion = "[43,)"
 license = "GNU_GPL.3"
-issueTrackerURL="https://discord.gg/gB8PjQgZ4Q"
+issueTrackerURL="https://github.com/warrentode/ElytraCompat/issues"
 
 [[mods]]
 modId = "elytracompat"
 version = "${file.jarVersion}"
 displayName = "Elytra Compat Mod"
-## updateJSONURL = "TBA"
-## displayURL = "TBA"
+updateJSONURL = "https://www.planetminecraft.com/mod/elytracompat-mod/"
+displayURL = "https://www.planetminecraft.com/mod/elytracompat-mod/"
 logoFile = "logo.png"
 credits = "A big thank you to my supporters: Marshal Nash, my father, and my sons, who have stuck with me in all of my projects.\nAdditional thanks to theillusivec4 in helping me figure some things out."
 authors = "WarrenTode (ToadieOdie)"
